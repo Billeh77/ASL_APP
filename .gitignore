@@ -1,3 +1,11 @@
+# Ignore ASL model files and project checkpoints
+ASLmodel.mlproj/
+ASLmodel1a.mlmodel
+
+# Ignore large model files and checkpoints
+ASLmodel.mlproj/Checkpoints/
+*.bin
+*.checkpoint
 
 # Xcode
 DerivedData/
