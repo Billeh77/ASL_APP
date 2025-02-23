@@ -1,0 +1,580 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		AF1ADAD72D6AC4DC001ADD79 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AF1ADAB72D6AC4DA001ADD79 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AF1ADABE2D6AC4DA001ADD79;
+			remoteInfo = RealtimeASL;
+		};
+		AF1ADAE12D6AC4DC001ADD79 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AF1ADAB72D6AC4DA001ADD79 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AF1ADABE2D6AC4DA001ADD79;
+			remoteInfo = RealtimeASL;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AF1ADABF2D6AC4DA001ADD79 /* RealtimeASL.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RealtimeASL.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF1ADAD62D6AC4DC001ADD79 /* RealtimeASLTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RealtimeASLTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF1ADAE02D6AC4DC001ADD79 /* RealtimeASLUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RealtimeASLUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		AF1ADAE82D6AC4DC001ADD79 /* Exceptions for "RealtimeASL" folder in "RealtimeASL" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = AF1ADABE2D6AC4DA001ADD79 /* RealtimeASL */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		AF1ADAC12D6AC4DA001ADD79 /* RealtimeASL */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				AF1ADAE82D6AC4DC001ADD79 /* Exceptions for "RealtimeASL" folder in "RealtimeASL" target */,
+			);
+			path = RealtimeASL;
+			sourceTree = "<group>";
+		};
+		AF1ADAD92D6AC4DC001ADD79 /* RealtimeASLTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = RealtimeASLTests;
+			sourceTree = "<group>";
+		};
+		AF1ADAE32D6AC4DC001ADD79 /* RealtimeASLUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = RealtimeASLUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AF1ADABC2D6AC4DA001ADD79 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF1ADAD32D6AC4DC001ADD79 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF1ADADD2D6AC4DC001ADD79 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AF1ADAB62D6AC4DA001ADD79 = {
+			isa = PBXGroup;
+			children = (
+				AF1ADAC12D6AC4DA001ADD79 /* RealtimeASL */,
+				AF1ADAD92D6AC4DC001ADD79 /* RealtimeASLTests */,
+				AF1ADAE32D6AC4DC001ADD79 /* RealtimeASLUITests */,
+				AF1ADAC02D6AC4DA001ADD79 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AF1ADAC02D6AC4DA001ADD79 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AF1ADABF2D6AC4DA001ADD79 /* RealtimeASL.app */,
+				AF1ADAD62D6AC4DC001ADD79 /* RealtimeASLTests.xctest */,
+				AF1ADAE02D6AC4DC001ADD79 /* RealtimeASLUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AF1ADABE2D6AC4DA001ADD79 /* RealtimeASL */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF1ADAE92D6AC4DC001ADD79 /* Build configuration list for PBXNativeTarget "RealtimeASL" */;
+			buildPhases = (
+				AF1ADABB2D6AC4DA001ADD79 /* Sources */,
+				AF1ADABC2D6AC4DA001ADD79 /* Frameworks */,
+				AF1ADABD2D6AC4DA001ADD79 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				AF1ADAC12D6AC4DA001ADD79 /* RealtimeASL */,
+			);
+			name = RealtimeASL;
+			packageProductDependencies = (
+			);
+			productName = RealtimeASL;
+			productReference = AF1ADABF2D6AC4DA001ADD79 /* RealtimeASL.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AF1ADAD52D6AC4DC001ADD79 /* RealtimeASLTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF1ADAEE2D6AC4DC001ADD79 /* Build configuration list for PBXNativeTarget "RealtimeASLTests" */;
+			buildPhases = (
+				AF1ADAD22D6AC4DC001ADD79 /* Sources */,
+				AF1ADAD32D6AC4DC001ADD79 /* Frameworks */,
+				AF1ADAD42D6AC4DC001ADD79 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AF1ADAD82D6AC4DC001ADD79 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				AF1ADAD92D6AC4DC001ADD79 /* RealtimeASLTests */,
+			);
+			name = RealtimeASLTests;
+			packageProductDependencies = (
+			);
+			productName = RealtimeASLTests;
+			productReference = AF1ADAD62D6AC4DC001ADD79 /* RealtimeASLTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AF1ADADF2D6AC4DC001ADD79 /* RealtimeASLUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF1ADAF12D6AC4DC001ADD79 /* Build configuration list for PBXNativeTarget "RealtimeASLUITests" */;
+			buildPhases = (
+				AF1ADADC2D6AC4DC001ADD79 /* Sources */,
+				AF1ADADD2D6AC4DC001ADD79 /* Frameworks */,
+				AF1ADADE2D6AC4DC001ADD79 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AF1ADAE22D6AC4DC001ADD79 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				AF1ADAE32D6AC4DC001ADD79 /* RealtimeASLUITests */,
+			);
+			name = RealtimeASLUITests;
+			packageProductDependencies = (
+			);
+			productName = RealtimeASLUITests;
+			productReference = AF1ADAE02D6AC4DC001ADD79 /* RealtimeASLUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AF1ADAB72D6AC4DA001ADD79 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					AF1ADABE2D6AC4DA001ADD79 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					AF1ADAD52D6AC4DC001ADD79 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = AF1ADABE2D6AC4DA001ADD79;
+					};
+					AF1ADADF2D6AC4DC001ADD79 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = AF1ADABE2D6AC4DA001ADD79;
+					};
+				};
+			};
+			buildConfigurationList = AF1ADABA2D6AC4DA001ADD79 /* Build configuration list for PBXProject "RealtimeASL" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AF1ADAB62D6AC4DA001ADD79;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = AF1ADAC02D6AC4DA001ADD79 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AF1ADABE2D6AC4DA001ADD79 /* RealtimeASL */,
+				AF1ADAD52D6AC4DC001ADD79 /* RealtimeASLTests */,
+				AF1ADADF2D6AC4DC001ADD79 /* RealtimeASLUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AF1ADABD2D6AC4DA001ADD79 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF1ADAD42D6AC4DC001ADD79 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF1ADADE2D6AC4DC001ADD79 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AF1ADABB2D6AC4DA001ADD79 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF1ADAD22D6AC4DC001ADD79 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF1ADADC2D6AC4DC001ADD79 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AF1ADAD82D6AC4DC001ADD79 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AF1ADABE2D6AC4DA001ADD79 /* RealtimeASL */;
+			targetProxy = AF1ADAD72D6AC4DC001ADD79 /* PBXContainerItemProxy */;
+		};
+		AF1ADAE22D6AC4DC001ADD79 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AF1ADABE2D6AC4DA001ADD79 /* RealtimeASL */;
+			targetProxy = AF1ADAE12D6AC4DC001ADD79 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		AF1ADAEA2D6AC4DC001ADD79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = RealtimeASL/RealtimeASL.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"RealtimeASL/Preview Content\"";
+				DEVELOPMENT_TEAM = F2P87V5L27;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RealtimeASL/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Emile.RealtimeASL;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AF1ADAEB2D6AC4DC001ADD79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = RealtimeASL/RealtimeASL.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"RealtimeASL/Preview Content\"";
+				DEVELOPMENT_TEAM = F2P87V5L27;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RealtimeASL/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Emile.RealtimeASL;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AF1ADAEC2D6AC4DC001ADD79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AF1ADAED2D6AC4DC001ADD79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AF1ADAEF2D6AC4DC001ADD79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F2P87V5L27;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Emile.RealtimeASLTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RealtimeASL.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/RealtimeASL";
+			};
+			name = Debug;
+		};
+		AF1ADAF02D6AC4DC001ADD79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F2P87V5L27;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Emile.RealtimeASLTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RealtimeASL.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/RealtimeASL";
+			};
+			name = Release;
+		};
+		AF1ADAF22D6AC4DC001ADD79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F2P87V5L27;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Emile.RealtimeASLUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RealtimeASL;
+			};
+			name = Debug;
+		};
+		AF1ADAF32D6AC4DC001ADD79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F2P87V5L27;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Emile.RealtimeASLUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RealtimeASL;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AF1ADABA2D6AC4DA001ADD79 /* Build configuration list for PBXProject "RealtimeASL" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF1ADAEC2D6AC4DC001ADD79 /* Debug */,
+				AF1ADAED2D6AC4DC001ADD79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF1ADAE92D6AC4DC001ADD79 /* Build configuration list for PBXNativeTarget "RealtimeASL" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF1ADAEA2D6AC4DC001ADD79 /* Debug */,
+				AF1ADAEB2D6AC4DC001ADD79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF1ADAEE2D6AC4DC001ADD79 /* Build configuration list for PBXNativeTarget "RealtimeASLTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF1ADAEF2D6AC4DC001ADD79 /* Debug */,
+				AF1ADAF02D6AC4DC001ADD79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF1ADAF12D6AC4DC001ADD79 /* Build configuration list for PBXNativeTarget "RealtimeASLUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF1ADAF22D6AC4DC001ADD79 /* Debug */,
+				AF1ADAF32D6AC4DC001ADD79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AF1ADAB72D6AC4DA001ADD79 /* Project object */;
+}

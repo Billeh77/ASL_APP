@@ -1,0 +1,22 @@
+
+# Xcode
+DerivedData/
+*.xcworkspace/
+xcuserdata/
+*.xcuserstate
+Pods/
+
+ASL_Dataset/
+
+# Ignore dataset
+ASL_Dataset/
+*.jpg
+*.png
+
+# Xcode files to ignore
+DerivedData/
+*.xcworkspace/
+xcuserdata/
+*.xcuserstate
+Pods/
+
